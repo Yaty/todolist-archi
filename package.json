@@ -1,0 +1,23 @@
+{
+  "name": "todolist",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cross-env TODOLIST_FILE_PATH=test.json jest"
+  },
+  "author": "Team 5AL1 - GROUPE 2 + Alexis Benard",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^25.2.1",
+    "@types/moment": "^2.13.0",
+    "@types/node": "^12.12.36",
+    "cross-env": "^7.0.2",
+    "jest": "^25.4.0",
+    "dotenv": "^8.2.0"
+  },
+  "dependencies": {
+    "moment": "^2.24.0",
+    "shortid": "^2.2.15"
+  }
+}
